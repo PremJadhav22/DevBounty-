@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+backend/venv/
+backend/.venv/
+backend/sandbox_*/
+backend/*.log
+
+# Environment Variables (CRITICAL)
+backend/.env
+.env
+
+# Node / React
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/build/
+frontend-react/.eslintcache
+
+# System
+.DS_Store
+Thumbs.db
